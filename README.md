@@ -1,2 +1,2 @@
 # cssnext
-cssnext
+struct cssnext
