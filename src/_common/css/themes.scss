@@ -1,0 +1,100 @@
+$primary-color: #4f8df6 !default;
+$secondary-color: rbga(58, 109, 255, 0.06) !default;
+/** 主题色边框，带透明度 */
+$primary-color-border: #4f8df60F !default;
+$red-color: #ff594d !default;
+$orange-color: #FA6400 !default;
+$black86: rgba(0, 0, 0, 0.86) !default;
+$black60: rgba(0, 0, 0, 0.6) !default;
+$black40: rgba(0, 0, 0, 0.4) !default;
+$white-color: #fff !default;
+/** 灰色背景 */
+$bg-gray: #f8f8f8 !default;
+/** 灰色边框 */
+$border-gray: #f3f3f3 !default;
+$bold-family: PingFangSC-Semibold !default;
+$normal-family: PingFangSC-Regular !default;
+$money-family: Gilroy-Bold !default;
+
+/** 插槽 */
+.placement-slot {
+  position: absolute;
+}
+
+.placement-left {
+  left: 0;
+  height: 100%;
+}
+
+.placement-right {
+  right: 0;
+  height: 100%;
+}
+
+.placement-top {
+  top: 0;
+  width: 100%;
+}
+
+.placement-bottom {
+  bottom: 0;
+  width: 100%;
+}
+
+.placement-topleft, .placement-lefttop {
+  top: 0;
+  left: 0;
+}
+
+.placement-topright, .placement-righttop {
+  top: 0;
+  right: 0;
+}
+
+.placement-bottomleft, .placement-leftbottom {
+  bottom: 0;
+  left: 0;
+}
+
+.placement-bottomright, .placement-rightbottom {
+  bottom: 0;
+  right: 0;
+}
+
+.placement-center {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+/** 去掉ios点击元素阴影 */
+* {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+
+  /** 禁止ios双击放大 */
+  -webkit-user-select: none;
+  -webkit-user-drag: none;
+}
+
+/** 去掉ios输入框内阴影 */
+input, textarea {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+/** 禁止ios长按弹出菜单 */
+* {
+  -webkit-touch-callout: none;
+}
+
+/** 禁止ios双击放大 */
+body {
+  touch-action: manipulation;
+}

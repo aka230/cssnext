@@ -1,0 +1,153 @@
+@import 'cssnext/_common/css/themes.scss';
+
+.text {
+  position: relative;
+  max-width: max-content;
+}
+
+.text-wrapper {
+  position: relative;
+}
+
+.text-block {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-background-color {
+  position: absolute;
+  bottom: 0.06rem;
+  height: 0.12rem;
+  display: block;
+  z-index: 0;
+}
+
+.text-line-through {
+  text-decoration: line-through;
+  text-decoration-color: #999;
+}
+
+.text-24 {
+  font-weight: 800;
+  font-family: $bold-family;
+  font-size: 0.24rem;
+  color: $black86;
+  letter-spacing: 0;
+  line-height: 0.28rem;
+}
+
+.text-20 {
+  font-weight: 800;
+  font-family: $bold-family;
+  font-size: 0.2rem;
+  color: $black86;
+  letter-spacing: 0;
+  line-height: 0.28rem;
+}
+
+.text-18 {
+  font-weight: 800;
+  font-family: $bold-family;
+  font-size: 0.18rem;
+  color: $black86;
+  letter-spacing: 0;
+  line-height: 0.26rem;
+}
+
+.text-16 {
+  font-weight: 800;
+  font-family: $bold-family;
+  font-size: 0.16rem;
+  color: $black86;
+  letter-spacing: 0;
+  line-height: 0.24rem;
+}
+
+.text-14 {
+  font-family: $normal-family;
+  font-size: 0.14rem;
+  color: $black86;
+  letter-spacing: 0;
+  line-height: 0.22rem;
+}
+
+.text-12 {
+  font-family: $normal-family;
+  font-size: 0.12rem;
+  color: $black60;
+  letter-spacing: 0;
+  line-height: 0.16rem;
+}
+
+.text-10 {
+  font-family: $bold-family;
+  font-size: 0.1rem;
+  color: $black86;
+  letter-spacing: 0;
+  line-height: 0.14rem;
+}
+
+.text-ellipsis {
+  text-overflow: ellipsis;
+}
+
+.text-link {
+  color: $primary-color;
+}
+
+.text-autowidth {
+  flex: 1;
+}
+
+.text-display {
+  visibility: hidden;
+}
+
+.text-relative {
+  position: relative;
+}
+
+.text-absolute {
+  position: absolute;
+}
+
+.text-suffix {
+  display: flex;
+  align-items: center;
+}
+
+.text-primary {
+  color: $primary-color;
+}
+
+.text-black86 {
+  color: $black86;
+  font-weight: 800;
+}
+
+.text-black60 {
+  color: $black60;
+}
+
+.text-black40 {
+  color: $black40;
+}
+
+.text-red {
+  color: $red-color;
+}
+
+.text-white {
+  color: $white-color;
+}

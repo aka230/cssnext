@@ -1,0 +1,11 @@
+@import 'cssnext/_common/css/themes.scss';
+
+.image {
+  width: -webkit-fill-available;
+  position: relative;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}
